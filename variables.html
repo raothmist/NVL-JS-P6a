@@ -5,12 +5,27 @@
 var nombre;
 var apellido;
 var edad = 35;
+var num1 = 1;
+var num2 = 3;
+var num3 = 5;
+var numtl = num1 +' '+ num2 +' '+ num3; 
 var semana;
+var semana2;
+var semana3;
+var semana4;
+var semana5;
+var semtotal;
 var gravedad;
 var impares;
-nombre = Isaac;
-apellido = Petrascu;
-semana = 'lunes', 'maartes', 'miercoles', 'jueves', 'viernes', 'sabado', 'domingo';
+nombre = "Isaac";
+apellido = "Petrascu";
+semana = 'lunes';
+semana2 = 'martes';
+semana3 = 'miercoles';
+semana4 = 'jueves';
+semana5 = 'viernes';
+var semtotal;
+semtotal = semana +' '+ semana2 +' '+ semana3 +' '+ semana4 +' '+ semana5;
 gravedad = 9.8;
 </script>
 <title>VCS prueba de bootcamp</title>
@@ -20,13 +35,27 @@ gravedad = 9.8;
 <header>
 	<h1>Prueba de Javascript</h1>
 </header>
-<head><h1>Elemetos de prueba</h1></head>
-<h2>Elementos</h2>
-<h2><a href="abecedario.html#w">Wikipedia</a>&nbsp<h2>
-<ul>
-	<li><h3><a name="w">Cosas de wikipwedia</a></h3></li>
-		<p><a href="https://es.wikipedia.org/wiki/Equus_ferus_caballus">Caballo en la wiki</a></p>
-</ul>
-<footer><center>Preactica de elementos by Isaac Petrascu</center></footer>
+<head><h1>Elemetos de prueba</h1></head></br>
+<h4>Tu nombre completo es: </h4>
+<script type="text/javascript">
+	document.writeln(nombre);
+	document.writeln(apellido);
+	</script>
+<h4>Tu edad es: </h4>
+<script type="text/javascript">
+	document.writeln(edad);
+	</script>
+<h4>Dias de la semana: </h4>	
+<script type="text/javascript">
+	document.writeln(semtotal);
+	</script>
+<h4>La gravedad es: </h4>	
+<script type="text/javascript">
+	document.writeln(gravedad);
+	</script>
+<h4>Numeros impares: </h4>	
+<script type="text/javascript">
+	document.writeln(numtl);
+	</script>		
 </body>
 </html>
